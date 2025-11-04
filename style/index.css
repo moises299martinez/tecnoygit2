@@ -1,0 +1,157 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Los apila verticalmente */
+    justify-content: center;
+    align-items: center; /* Alinea al centro */
+}
+
+.tecnoytitle{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 20, 133);
+    margin: 0;
+    margin-bottom: 10px; /* Espacio entre título y enlaces */
+}
+
+.nav-links{
+    display: flex;
+    gap: 20px; /* Espacio entre los enlaces */
+}
+
+.acercade, .nosotros{
+    text-decoration: none; /* Opcional: quita el subrayado */
+    color: rgb(0, 20, 133); /* Opcional: color de los enlaces */
+}
+
+.inicio{
+    text-decoration: none; /* Opcional: quita el subrayado */
+    color: rgb(0, 20, 133); /* Opcional: color de los enlaces */
+}
+
+/* style/index.css */
+
+.nav-links a {
+    color: #333; /* Color normal */
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #f0f0f0;
+    color: #555;
+}
+
+.nav-links a.active {
+    background-color: #007bff; /* Color de fondo activo */
+    color: white; /* Color de texto activo */
+    font-weight: bold;
+}
+
+/* O si prefieres solo cambiar el color del texto */
+.nav-links a.active {
+    color: #ffffff;
+    border-bottom: 2px solid #007bff;
+    font-weight: bold;
+}
+
+.logo-image {
+    width: 80px; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Espacio entre la imagen y el título */
+    position: absolute;
+    left: 20px;
+    padding: 0;
+}
+
+.content {
+    background-color: #004691;
+    color: white;
+    margin: 0;
+    margin-top: 0;
+}
+
+.bienvenido {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+#textos {
+    text-align: center;
+    font-size: 18px;
+    margin: 10px 20px;
+}
+
+.credencial {
+    width: 300px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Centra la imagen horizontalmente */
+
+}
+.equipos{
+        text-align: center;
+    }
+.aguante, .arquitos, .coyotes, .lugos, .cholos, .migajeros, .realunion, .vodka {
+    width: auto; /* Ajusta el tamaño según sea necesario */
+    height: 150px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.postdiv {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.post {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 500px;
+    width: auto;
+}
+
+footer {
+    text-align: center;
+}
+@media (max-width: 768px) {
+
+    .equipos{
+        text-align: center;
+    }
+    .aguante, .arquitos, .coyotes, .lugos, .cholos, .migajeros, .realunion, .vodka {
+        width: auto; /* Ajusta el tamaño para pantallas pequeñas */
+        height: 60px;
+        margin: 10px auto; /* Centra las imágenes */
+        display: inline-block;
+        text-align: center;
+    }
+    .postdiv {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.post {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 300px;
+    width: auto;
+}
+    .nav-links{
+    display: flex;
+    gap: 1px; /* Espacio entre los enlaces */
+
+    }
+}
